@@ -13,18 +13,15 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2"
-            android:scaleType="centerInside"
+            android:layout_height="304dp"
             android:padding="@dimen/padding"
             android:src="@drawable/jagdishlogo"
             tools:ignore="Suspicious0dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_marginVertical="8dp"
-            android:layout_weight="3"
             android:orientation="vertical"
             tools:ignore="Suspicious0dp">
 
@@ -43,7 +40,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:autoLink="map"
                     android:padding="@dimen/padding"
                     android:text="@string/name"
                     android:textAppearance="?android:textAppearanceLarge" />
